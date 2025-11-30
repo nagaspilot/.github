@@ -17,13 +17,14 @@ Hardware Architecture
 
 For maximum hardware compatibility, NagasPilot implements a common control protocol based on **Tesla Model 3 standard CAN bus** (500 kbps, non-CAN-FD). This design choice ensures compatibility with Comma 3 classic and newer devices while maintaining broad vehicle support.
 
-### PandaGateway Technology
+### Gateway Technology (brownpanda)
 
-NagasPilot utilizes a specialized **automotive gateway hardware** that translates between vehicle-specific protocols and our universal Tesla-based protocol. This approach enables:
+NagasPilot utilizes a specialized **automotive gateway hardware (brownpanda)** that translates between vehicle-specific protocols and our universal Tesla-based protocol. This approach enables:
 
 - **Hardware Safety**: AEC-Q100 grade automotive microcontrollers with fail-safe fallback mechanisms
 - **Universal Compatibility**: Support for any vehicle brand while maintaining openpilot source compatibility
 - **User Safety**: Integrated physical switch allowing instant system deactivation—factory OEM ADAS remains functional when switch is not engaged
+- **Enhanced Safety Architecture**: In the enhancedpilot project, ADAS safety logic has been migrated to the gateway hardware (brownpanda), enabling seamless integration and switching between OEM ADAS mode and enhanced/openpilot mode
 
 This architecture provides non-technical users with a simple hardware override mechanism for peace of mind.
 
@@ -52,9 +53,9 @@ Rewritten openpilot with hybrid stack combining:
 
 **What you need:**
 1. **Supported Device:** Comma 3 classic or newer compatible hardware
-2. **Supported Car:** Chinese EV brands with PandaGateway tuning
+2. **Supported Car:** Chinese EV brands with brownpanda tuning
 3. **Car Harness:** Purchase from exo-electronics
-4. **PandaGateway:** Automotive-grade protocol converter with safety switch
+4. **brownpanda:** Automotive-grade gateway hardware with safety switch
 
 **THIS IS ALPHA QUALITY SOFTWARE FOR RESEARCH PURPOSES ONLY. THIS IS NOT A PRODUCT.
 YOU ARE RESPONSIBLE FOR COMPLYING WITH LOCAL LAWS AND REGULATIONS.

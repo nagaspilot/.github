@@ -35,27 +35,16 @@ Our Projects
 
 We believe AI cannot solve all driving scenarios. NagasPilot branches into two projects:
 
-### 1. openpilot (Fork of DragonPilot Brother)
-Traditional openpilot fork focused on Chinese car compatibility.
-
-| branch           | URL                                    | description                                                                         |
-|------------------|----------------------------------------|-------------------------------------------------------------------------------------|
-| `jsa`         | https://smiskol.com/fork/nagaspilot/jsa                     | For JiaShi.Ai Hardware                                                 |
-| `c3l` | https://smiskol.com/fork/nagaspilot/c3l               | For MrOne.C3L Hardware |
-
-### 2. enhancedpilot (Hybrid Rewrite)
-Rewritten openpilot with hybrid stack combining:
-- Rule-based stereo camera system
-- AI-assisted decision making
-- Enhanced perception for complex scenarios
+- **openpilot**: Fork of DragonPilot Brother for Chinese car compatibility
+- **enhancedpilot**: Hybrid rewrite combining rule-based stereo vision with AI-assisted decision making
 
 ---
 
-**What you need:**
-1. **Supported Device:** Comma 3 classic or newer compatible hardware
-2. **Supported Car:** Chinese EV brands with brownpanda tuning
-3. **Car Harness:** Purchase from exo-electronics
-4. **brownpanda:** Automotive-grade gateway hardware with safety switch
+**Requirements:**
+- Comma 3 classic or newer hardware
+- Chinese EV brands with brownpanda tuning
+- Car harness from exo-electronics
+- brownpanda automotive gateway with safety switch
 
 **THIS IS ALPHA QUALITY SOFTWARE FOR RESEARCH PURPOSES ONLY. THIS IS NOT A PRODUCT.
 YOU ARE RESPONSIBLE FOR COMPLYING WITH LOCAL LAWS AND REGULATIONS.

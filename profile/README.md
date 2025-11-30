@@ -15,8 +15,8 @@ Our Projects
 
 We believe AI cannot solve all driving scenarios. NagasPilot branches into two projects:
 
-- **openpilot**: Fork of DragonPilot Brother for Chinese car compatibility
-- **enhancedpilot**: Hybrid rewrite combining rule-based stereo vision with AI-assisted decision making
+- **[openpilot](https://github.com/nagaspilot/openpilot)**: Fork of DragonPilot Brother for Chinese car compatibility
+- **[enhancedpilot](https://github.com/nagaspilot/enhancedpilot)**: Hybrid rewrite combining rule-based stereo vision with AI-assisted decision making
 
 ---
 
